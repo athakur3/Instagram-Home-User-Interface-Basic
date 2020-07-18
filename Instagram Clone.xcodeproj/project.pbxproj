@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9C08C3024C241FF0055E8FD /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C08C2F24C241FF0055E8FD /* HomeCollectionViewCell.swift */; };
+		B9C08C3324C243E90055E8FD /* HomeCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C08C3224C243E90055E8FD /* HomeCollectionHeaderView.swift */; };
 		B9DFA53B24BFEDB20062B3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFA53A24BFEDB20062B3D5 /* AppDelegate.swift */; };
 		B9DFA53D24BFEDB20062B3D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFA53C24BFEDB20062B3D5 /* SceneDelegate.swift */; };
-		B9DFA53F24BFEDB20062B3D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFA53E24BFEDB20062B3D5 /* ViewController.swift */; };
+		B9DFA53F24BFEDB20062B3D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFA53E24BFEDB20062B3D5 /* HomeViewController.swift */; };
 		B9DFA54224BFEDB20062B3D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DFA54024BFEDB20062B3D5 /* Main.storyboard */; };
 		B9DFA54424BFEDB30062B3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DFA54324BFEDB30062B3D5 /* Assets.xcassets */; };
 		B9DFA54724BFEDB30062B3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DFA54524BFEDB30062B3D5 /* LaunchScreen.storyboard */; };
@@ -35,10 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9C08C2F24C241FF0055E8FD /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B9C08C3224C243E90055E8FD /* HomeCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionHeaderView.swift; sourceTree = "<group>"; };
 		B9DFA53724BFEDB20062B3D5 /* Instagram Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DFA53A24BFEDB20062B3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9DFA53C24BFEDB20062B3D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B9DFA53E24BFEDB20062B3D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9DFA53E24BFEDB20062B3D5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B9DFA54124BFEDB20062B3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9DFA54324BFEDB30062B3D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DFA54624BFEDB30062B3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +80,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9C08C2D24C241C20055E8FD /* Home Group */ = {
+			isa = PBXGroup;
+			children = (
+				B9C08C3124C242030055E8FD /* Controllers */,
+				B9C08C2E24C241D70055E8FD /* Views */,
+			);
+			path = "Home Group";
+			sourceTree = "<group>";
+		};
+		B9C08C2E24C241D70055E8FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9C08C2F24C241FF0055E8FD /* HomeCollectionViewCell.swift */,
+				B9C08C3224C243E90055E8FD /* HomeCollectionHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9C08C3124C242030055E8FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9DFA53E24BFEDB20062B3D5 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		B9DFA52E24BFEDB20062B3D5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +131,7 @@
 			children = (
 				B9DFA53A24BFEDB20062B3D5 /* AppDelegate.swift */,
 				B9DFA53C24BFEDB20062B3D5 /* SceneDelegate.swift */,
-				B9DFA53E24BFEDB20062B3D5 /* ViewController.swift */,
+				B9C08C2D24C241C20055E8FD /* Home Group */,
 				B9DFA54024BFEDB20062B3D5 /* Main.storyboard */,
 				B9DFA54324BFEDB30062B3D5 /* Assets.xcassets */,
 				B9DFA54524BFEDB30062B3D5 /* LaunchScreen.storyboard */,
@@ -259,9 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DFA53F24BFEDB20062B3D5 /* ViewController.swift in Sources */,
+				B9DFA53F24BFEDB20062B3D5 /* HomeViewController.swift in Sources */,
+				B9C08C3324C243E90055E8FD /* HomeCollectionHeaderView.swift in Sources */,
 				B9DFA53B24BFEDB20062B3D5 /* AppDelegate.swift in Sources */,
 				B9DFA53D24BFEDB20062B3D5 /* SceneDelegate.swift in Sources */,
+				B9C08C3024C241FF0055E8FD /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
